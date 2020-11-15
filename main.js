@@ -27,7 +27,7 @@ class MyComponent extends Component {
 // </myComponent>)
 // todo:5
 render(<MyComponent id="a" class="c">
-    <div>abc1</div>
-    <div>1</div>
-    <div>2</div>
+    <p>abc1</p>
+    <h2>1</h2>
+    <h3>2</h3>
 </MyComponent>,document.body)

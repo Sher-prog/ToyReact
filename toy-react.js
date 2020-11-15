@@ -39,6 +39,7 @@ export class Component {
     }
 }
 
+// webpack.config.js中plugins中调用
 export function createElement(type, attributes, ...children){
     let e ;
     if(typeof type === 'string'){
@@ -67,8 +68,6 @@ export function createElement(type, attributes, ...children){
 }
 
 export function render(component, parentElement){
-    console.log('component',component)
-    console.log('parentElement',parentElement)
     parentElement.appendChild(component.root)
 }
 
